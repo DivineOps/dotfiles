@@ -7,7 +7,10 @@ echo "" >> ~/.bashrc
 echo ". ~/dotfiles/bashprompt.sh" >> ~/.bashrc
 
 
+#Install for Mac
 #symlinks for Mac
 ln -sv "$PWD/git/.gitconfig" ~
 
-ln -sv "$PWD/bashprompt.sh" ~
+ln -sv "$PWD/zsh/.zshrc" ~
+
+ln -sv "$PWD/zsh/.alias.zsh" ~
